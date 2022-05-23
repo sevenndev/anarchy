@@ -1,6 +1,6 @@
 local Venyx = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Venyx-UI-Library/main/source2.lua"))()
 local UI = Venyx.new({
-    title = "Anarchy Hub"
+    title = "Anarchy Hub - Arsenal"
 })
 local CombatPage = UI:addPage({
     title = "Combat"
