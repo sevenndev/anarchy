@@ -83,7 +83,7 @@ LocalPlayerSection:addSlider({
     end
 })
 
-LocalPlayer:addToggle({
+LocalPlayerSection:addToggle({
     title = "Auto Pickup Gun",
     callback = function(value)
         if value == true then
@@ -92,7 +92,7 @@ LocalPlayer:addToggle({
     end
 })
 
-LocalPlayer:addButton({
+LocalPlayerSection:addButton({
     title = "Find Murder",
     callback = function()
         for i,v in pairs(game:GetService("Players"):GetPlayers()) do
@@ -106,7 +106,7 @@ LocalPlayer:addButton({
     end
 })
 
-LocalPlayer:addButton({
+LocalPlayerSection:addButton({
     title = "Find Sheriff",
     callback = function()
         for i,v in pairs(game:GetService("Players"):GetPlayers()) do
