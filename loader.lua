@@ -9,3 +9,7 @@ end
 if game.PlaceId == 142823291 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/AfinityDev/anarchy/main/mm2.lua'))()
 end
+
+if game.PlaceId == 155615604 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/AfinityDev/anarchy/main/prisonlife.lua'))()
+end
