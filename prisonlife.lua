@@ -12,7 +12,7 @@ local VisualsPage = UI:addPage({
 })
 
 local LocalPlayerPage = UI:addPage({
-    title = "Local Player
+    title = "Local Player"
 })
 
 local TeleportsPage = UI:addPage({
